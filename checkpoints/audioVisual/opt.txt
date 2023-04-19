@@ -1,0 +1,76 @@
+------------ Options -------------
+audioVisual_feature_dim: 1280
+audio_augmentation: False
+audio_length: 2.55
+audio_normalization: False
+audio_pool: maxpool
+audio_sampling_rate: 16000
+batchSize: 32
+beta1: 0.9
+checkpoints_dir: checkpoints/
+compression_type: hyperbolic
+coseparation_loss_weight: 0.05
+crop_size: 112
+crossmodal_loss_weight: 0.05
+data_path: D:/±œ…Ë/VisualVoice-main/hhh/
+decay_factor: 0.1
+display_freq: 10
+epoch_count: 0
+gpu_ids: []
+gt_percentage: 0.5
+hop_size: 160
+hyperbolic_compression_C: 0.1
+hyperbolic_compression_K: 10
+identity_feature_dim: 64
+l2_feature_normalization: False
+lipreading_config_path: None
+lipreading_extract_feature: False
+log_freq: False
+lr_facial_attributes: 0.0001
+lr_lipreading: 0.0001
+lr_steps: [10000, 20000]
+lr_unet: 0.001
+lr_vocal_attributes: 0.001
+margin: 0.5
+mask_clip_threshold: 5
+mask_loss_type: L1
+mask_thresh: 0.5
+measure_time: False
+mixandseparate_loss_weight: 1
+mode: train
+model: audioVisual
+nThreads: 16
+n_fft: 512
+name: audioVisual
+niter: 1
+normalization: False
+num_batch: 30000
+num_frames: 64
+num_visualization_examples: 5
+number_of_identity_frames: 1
+optimizer: sgd
+save_latest_freq: 200
+scale_h: [128]
+scale_w: [128]
+seed: 0
+sigmoidal_compression_a: 0.1
+sigmoidal_compression_b: 0
+tensorboard: False
+triplet_loss_type: tripletCosine
+unet_input_nc: 3
+unet_ngf: 64
+unet_output_nc: 3
+validation_batches: 10
+validation_freq: 500
+validation_on: False
+video_sampling_rate: 1
+visual_feature_type: both
+visual_pool: maxpool
+weight_decay: 0.0001
+weighted_loss: False
+weights_facial: 
+weights_lipreadingnet: 
+weights_unet: 
+weights_vocal: 
+window_size: 400
+-------------- End ----------------
